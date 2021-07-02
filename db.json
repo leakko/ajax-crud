@@ -1,0 +1,22 @@
+{
+    "jokes": [
+        {
+            "id": 1,
+            "title": "Café",
+            "start":"¿Cuál es el café más peligroso del mundo?",
+            "end": "El ex-preso"
+        },
+        {
+            "id": 2,
+            "title": "Peter Pán",
+            "start": "¿Por qué sabemos que Peter Pan nació en Israel?",
+            "end": "Porque es del país del nunca Hamás"
+        },
+        {
+            "id": 3,
+            "title": "Fuera o fuese",
+            "start": "-- Paco! Que se dice fuera o fuese?  ++ Hombre se dice fuese",
+            "end": "-- Pues llevas un huevo fuese"
+        }
+    ]
+}
