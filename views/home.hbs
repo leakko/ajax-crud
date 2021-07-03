@@ -1,0 +1,19 @@
+<div class="d-flex align-items-center ms-5 mt-3 mb-3">
+    <h1>Chistes</h1>
+    <a href="/newJoke"> <button class="btn btn-primary ms-3">Añade tu chiste</button></a>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4 ms-5 me-5">
+    {{#each jokesArr as |joke|}}
+        <div class="col-3">
+            <div class="card text-dark bg-light mb-3 h-100">
+                <img src="images/laugh.jpg" class="card-img-top" alt="baby laughing">
+                <div class="card-body">
+                    <h5 class="card-title">{{joke.title}}</h5>
+                    <li>{{joke.start}}</li>
+                    <li>{{joke.end}}</li>
+                    <button class="btn btn-danger mt-3" value="{{joke.id}}">Borrar</button>
+                 </div>
+            </div>
+        </div>
+    {{/each}}
+</div>
